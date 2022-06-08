@@ -6,7 +6,7 @@ import extending from "./utils/extending";
 import useSleep from "./utils/useSleep";
 
 /** 
- * @description Główna klasa
+ * @description Main class
  */
 export default class Main {
    /** @description html element for game board */
