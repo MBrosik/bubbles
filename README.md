@@ -19,8 +19,9 @@ npm run serve
 - Pathfinding (A*) <br/>
 ![Alt Text](https://upload.wikimedia.org/wikipedia/commons/c/c2/Astarpathfinding.gif)
 
+- creating documentation with typedoc
+
 
 ## Technologies
-- Typescript
-- Webpack
-- TypeDoc
+![typescript](https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=FFFFFF)
+![webpack](https://img.shields.io/badge/webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=black)
