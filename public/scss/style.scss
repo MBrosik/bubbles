@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap");
+
+* {
+   box-sizing: border-box;
+   font-family: "Maven Pro", sans-serif;
+}
+
+body {
+   background-color: #393939;
+   color: white;
+}
+
+button {
+   height: 30px;
+   margin-top: 20px;
+   padding: 3px 7px;
+   font-size: 17px;
+   text-align: center;
+   cursor: pointer;
+   outline: none;
+   border: none;
+   border-radius: 8px;
+   background-color: rgb(251, 84, 43);
+   box-shadow: 0 5px #999;
+
+   &:hover {
+      background-color: rgb(223, 77, 41);
+   }
+
+   &:active {
+      background-color: rgb(223, 77, 41);
+      box-shadow: 0 1px #999;
+      transform: translate(0, 4px);
+   }
+}
+
+#container {
+   position: relative;
+
+   #board {
+      // width: 350px;
+      // height: 350px;
+
+      display: grid;
+      // grid-template-columns: repeat(4,1fr);
+      // grid-template-rows: repeat(4,1fr);
+      gap: 5px;
+
+      & > div {
+         // background-color: green
+         border: 4px rgb(126, 126, 126) solid;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+
+         &.clickable {
+            cursor: pointer;
+         }
+
+         .ball {
+            // background-color: attr("data-color");
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+
+            // backgroun
+         }
+
+         &.blinking {
+            .ball {
+               animation-name: blink;
+               animation-duration: 1s;
+               animation-iteration-count: infinite;
+               animation-timing-function: ease-out;
+               animation-direction: alternate;
+
+               @keyframes blink {
+                  0% {
+                     filter: opacity(100%);
+                  }
+                  100% {
+                     filter: opacity(50%);
+                  }
+               }
+            }
+         }
+         &.pathing {
+            background-color: rgb(72, 184, 184);
+         }
+         &.end-pathing {
+            background-color: grey;
+         }
+      }
+   }
+   .next-container {
+      display: flex;
+      gap: 5px;
+
+      .ball {
+         width: 60px;
+         height: 60px;
+         border-radius: 50%;
+      }
+   }
+}
+
+.end-game-container {
+   width: 500px;
+   height: 300px;
+
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+
+   border: 10px solid rgb(251, 84, 43);
+   border-radius: 20px;
+   background-color: #393939;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 25px;
+
+   .end-game-h1 {
+      color: rgb(82, 198, 255);
+      font-size: 50px;
+      margin: 0;
+      padding: 0;
+   }
+
+   .end-game-p {
+      color: rgb(82, 198, 255);
+      font-size: 20px;
+      margin: 0;
+      padding: 0;
+   }
+
+   button{
+      width: 250px;
+   }
+}

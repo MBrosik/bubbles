@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="./scss/style.css">
+
+   <script type="module" src="./bundle.js"></script>
+</head>
+
+<body>
+   <div id="container">
+      <div id="left-side-info">
+         <p>Next:</p>
+         <div class="next-container"></div>
+         <p>Points: <span id="points-container">0</span></p>
+         <p>Rekord: <span id="record-container"></span> </p>
+      </div>
+      <div id="board"></div>
+      
+
+   </div>
+   <template id="end-game-template">
+      <div class="end-game-container">
+         <h1 class="end-game-h1">To koniec!</h1>
+         <p class="end-game-p"></p>
+         <button onclick="window.location.reload()">Zagraj jeszcze raz!</button>
+      </div>
+   </template>
+</body>
+
+</html>
