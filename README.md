@@ -1,7 +1,7 @@
 # Bubbles
 
 ## About 
-Welcome to Bubble Game - the cult arcade game! Your task is to eliminate colored balls by shooting and matching at least five of the same color. Five bubbles arranged next to each other will burst, and you will prevent them from flooding the board with them. However, be vigilant! As time goes on, more and more balls are added, and when they reach the bottom of the board, the game is stopped.
+Welcome to Bubble Game - the renowned arcade game! Your task is to eliminate colored balls by sliding and matching at least five of the same color. Five bubbles arranged next to each other will burst, preventing the board from getting flooded. However, be vigilant! As time goes on, more and more balls are added, and when there's no free space left, the game is stopped.
 
 
 ## Interface
