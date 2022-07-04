@@ -9,6 +9,9 @@ Welcome to Bubble Game - the renowned arcade game! Your task is to eliminate col
 
 ## Installation
 ```
+git init
+git remote add origin https://github.com/MBrosik/bubbles.git
+git pull origin master
 npm i
 npm run serve
 ``` 
