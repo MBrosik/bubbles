@@ -8,6 +8,8 @@ Welcome to Bubble Game - the renowned arcade game! Your task is to eliminate col
 ![image](https://user-images.githubusercontent.com/63966121/172720645-eb38ed33-58ff-4e3e-bdee-12cb38e49f3e.png)
 
 ## Installation
+Play the game [here](https://mbrosik.github.io/Projects/aplikacje_klienckie/Mendela/(2021.10.21)%20Kulki/)
+
 ```
 git init
 git remote add origin https://github.com/MBrosik/bubbles.git
