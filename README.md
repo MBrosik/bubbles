@@ -22,7 +22,7 @@ npm run serve
 
 ## Features
 - Pathfinding (A*) <br/>
-![Alt Text](https://upload.wikimedia.org/wikipedia/commons/c/c2/Astarpathfinding.gif)
+![Alt Text](https://upload.wikimedia.org/wikipedia/commons/8/85/Weighted_A_star_with_eps_5.gif)
 
 - creating documentation with typedoc
 
